@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" class="indexcontent">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/media.css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>OPEN_BEAR_RELATIE</title>
+    <style>
+        #landscapeAlert {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(34, 57, 87);
+            color: white;
+            z-index: 9999;
+            text-align: center;
+        }
+
+        #landscapeAlert p {
+            font-size: 24px;
+            margin-top: 30%;
+        }
+
+        .animate {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .animate:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body class="indexcontent">
+    <div id="landscapeAlert">
+        <p>Please turn your device to landscape mode to view this website properly.</p>
+    </div>
+    <div id="indexcontent1">
+        <div class="index_images">
+            <img src="images/Dot lines.png" alt="Dot lines" class="dot_lines">
+            <img src="images/circle.png" alt="Circle" class="circle_index">
+            <img src="images/head.png" alt="Head" class="head_of_bear">
+            <img src="images/Nose.png" alt="Nose" class="tie_to_bear">
+            <h3>"Unlock Your Dreams : Click on OPEN_BEAR_RELATIE"</h3>
+        </div>
+        <div id="video-wrapper" style="display: none;">
+            <video autoplay muted playsinline class="video-background" id="background-video">
+                <source src="videos/Obr website opening 2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <script>
+        window.onload = function () {
+            const images = document.querySelectorAll('.index_images img');
+            const videoWrapper = document.getElementById('video-wrapper');
+            const video = document.getElementById('background-video');
+            const heading = document.querySelector('.index_images h3');
+
+            images.forEach(img => {
+                img.classList.add('animate');
+                img.addEventListener('click', () => {
+                    images.forEach(image => image.style.display = 'none');
+                    heading.style.display = 'none'; // Hide the heading
+                    videoWrapper.style.display = 'block';
+                    video.play();
+                    video.addEventListener('ended', function () {
+                        window.location.href = 'home.html';
+                    });
+                });
+            });
+
+            checkOrientation();
+        }
+
+        function checkOrientation() {
+            if (window.innerWidth < window.innerHeight) {
+                document.getElementById('landscapeAlert').style.display = 'block';
+                document.getElementById('indexcontent1').style.display = 'none';
+            } else {
+                document.getElementById('landscapeAlert').style.display = 'none';
+                document.getElementById('indexcontent1').style.display = 'block';
+            }
+        }
+
+        window.addEventListener('resize', checkOrientation);
+    </script>
+
+</body>
+
+</html>

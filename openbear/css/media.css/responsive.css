@@ -1,0 +1,2245 @@
+@media (max-width: 768px) {
+    .nav-items-right {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .main-content1 h1 .letter {
+        font-size: 10px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content1 h1 .letter {
+        font-size: 20px;
+    }
+
+    .dropbtn img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .obr-search,
+    .obr-luck {
+        font-size: 14px;
+    }
+
+    .search-box {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-content1 h1 .letter {
+        font-size: 50px;
+    }
+
+    .search-box {
+        font-size: 18px;
+    }
+}
+
+
+
+/* inner mobile*/
+/* General styles */
+.navbar_digi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5e2ab;
+    color: white;
+}
+
+.nav-container_digi,
+.icons_digi {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar_digi {
+    margin-right: 20px;
+}
+
+.search-box_digi {
+    padding: 3%;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.icons_digi a,
+.dropdown-mywrapper,
+.mydropdown {
+    margin-left: 15px;
+}
+
+.logo_digi img {
+    height: 41px;
+    position: fixed;
+    right: 6%;
+}
+
+@media only screen and (min-width:300px) and (max-width:635px) {
+    .myteleicon {
+        width: 12.8%;
+        position: fixed;
+        right: 24%;
+        height: auto;
+        top: 3.5%;
+        font-size: 14px;
+        color: #3f3335;
+    }
+
+    body {
+        height: 1200px;
+    }
+
+    .navbar_digi {
+        height: 25px;
+        position: fixed;
+    }
+
+    .search-bar_digi {
+        width: 45%;
+        justify-content: space-between;
+    }
+
+    .search-bar_digi input {
+        width: 34%;
+        position: fixed;
+        left: 13%;
+        top: 1.8%;
+        height: 1.5%;
+    }
+
+    .bess {
+        width: 2.4%;
+        top: 3%;
+        height: auto;
+        left: 0.8%;
+    }
+
+    .bass {
+        width: 3%;
+        height: auto;
+        left: 2%;
+        top: 3%;
+    }
+
+    .basss {
+        width: 9%;
+        height: auto;
+        right: 38%;
+        top: 3.4%;
+        font-size: 14px;
+    }
+
+    .dropdown-mywrapper {
+        right: 17%;
+        top: 5%;
+    }
+
+    .myhov:hover .mymain {
+        display: inline;
+        right: 20%;
+    }
+
+    .mymain {
+        font-size: 17px;
+    }
+
+    .fb {
+        position: fixed;
+        left: 60%;
+    }
+
+    .sc_digi {
+        width: 3%;
+        height: auto;
+        right: 17.5%;
+        top: 3%;
+    }
+
+    .myapps-icon {
+        width: 25px;
+        height: auto;
+        right: 10%;
+        top: 3%;
+    }
+
+    .myhov {
+        position: relative;
+        height: 4.3%;
+        width: 5.7%;
+        color: #3f3335;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        text-align: center;
+        line-height: 4%;
+        list-style: none;
+        z-index: 2;
+        cursor: pointer;
+        left: 35%;
+        top: -15px;
+    }
+
+    .myhov:hover .mymain {
+        display: inline;
+        right: 13%;
+        height: 63%;
+        margin-top: 4%;
+    }
+
+    .mydropdown-content {
+        position: fixed;
+        right: 1%;
+        width: 230px;
+        display: flex;
+        padding: 1px;
+        height: 350px;
+        top: 12%;
+    }
+
+    .mydropdown-content a {
+        width: 45px;
+    }
+
+    .mydropdown-content a:hover {
+        background-color: #575757;
+
+    }
+
+    .mydropdown-content a span {
+        width: 60px;
+        right: 1%;
+    }
+
+    .mydropdown-content a img {
+        width: 60%;
+        height: 30px;
+    }
+
+    .mydropbtn {
+        background: none;
+        border: none;
+        color: white;
+    }
+
+    .fb {
+        position: fixed;
+        left: 50%;
+    }
+
+    .mymain {
+        height: 16%;
+        width: 5%;
+        position: fixed;
+        left: 79%;
+        top: 3%;
+        padding: 2px;
+    }
+
+    .logo_digi img {
+        left: 92%;
+        position: fixed;
+        width: 7%;
+        height: auto;
+        top: 0.2%;
+    }
+
+    .container_temp {
+        margin-top: -7.2%;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        height: 700px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+    }
+
+    .container_temp .container-inner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+        animation: fade-in 1.5s ease, slide-in 1.2s ease;
+        -webkit-animation: fade-in 1.5s ease, slide-in 1.2s ease;
+    }
+
+    .container_temp .container-inner .main-content {
+        flex-basis: auto;
+        order: 1;
+        margin-top: 4%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_temp .container-inner .main-content .main-headings {
+        width: 100%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        animation: scaleDown 6s ease 2s;
+        -webkit-animation: scaleDown 6s ease 2s;
+    }
+
+    .container_temp .container-inner .main-content .main-headings #by-line {
+        width: 80%;
+        padding-bottom: 1px;
+        padding-left: 3px;
+        margin-left: 0;
+        font-size: 16px;
+        border-bottom: 1px solid #757575;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 {
+        margin-top: 5%;
+        position: relative;
+        right: 33%;
+        text-align: center;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading1,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading2,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading3 {
+        margin: 0;
+        margin-top: 5px;
+        font-size: 24px;
+        font-weight: normal;
+        letter-spacing: -1px;
+        padding-bottom: 2px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading3 {
+        font-size: 29px;
+        font-weight: 800;
+        margin-top: -10px;
+        letter-spacing: 1px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .short-bio {
+        width: 52%;
+        margin-top: -10px;
+        margin-left: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .container_temp .container-inner .main-content .main-headings a {
+        margin-left: 0;
+        align-self: center;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+
+    .container_temp .container-inner .main-content .more-info {
+        margin-top: 0%;
+        width: 95%;
+        height: 16%;
+        font-size: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        align-self: center;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        -webkit-animation: reveal-info 4s ease 3s;
+    }
+
+    .container_temp .container-inner .image-wrapper {
+        flex-basis: auto;
+        order: 2;
+    }
+
+    .container_temp .container-inner .image-wrapper .image-container {
+        width: 37%;
+        height: 40%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation: scaleDown 6s ease 2s;
+        -webkit-animation: scaleDown 6s ease 2s;
+        margin-top: 5px;
+        position: fixed;
+        top: 10%;
+        left: 55%;
+    }
+
+    .container_temp .container-inner .image-wrapper .image-container img {
+        width: 32%;
+        height: auto;
+        position: fixed;
+        top: 12%;
+        border-radius: 10px;
+        left: 58%;
+    }
+
+    .link {
+        display: none;
+    }
+
+    .foot {
+        background-color: #f5e2ab;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        bottom: 0%;
+    }
+
+}
+
+@media only screen and (min-width: 636px) and (max-width: 950px) {
+    .myteleicon {
+        width: 15.4%;
+        position: fixed;
+        right: 18%;
+        height: auto;
+        top: 3%;
+        font-size: 16px;
+        color: #3f3335;
+    }
+
+    body {
+        height: 1200px;
+    }
+
+    .navbar_digi {
+        height: 25px;
+        position: fixed;
+    }
+
+    .search-bar_digi {
+        width: 45%;
+        justify-content: space-between;
+    }
+
+    .search-bar_digi input {
+        width: 46%;
+        position: fixed;
+        left: 5%;
+        top: 1.9%;
+        height: 1.5%;
+    }
+
+    .bess {
+        width: 1.8%;
+        top: 3.5%;
+        height: auto;
+        left: 0.5%;
+    }
+
+    .bass {
+        width: 3%;
+        height: auto;
+        left: 3%;
+        top: 3%;
+        font-size: 14px;
+    }
+
+    .basss {
+        width: 6%;
+        height: auto;
+        right: 37%;
+        top: 3%;
+    }
+
+    .dropdown-mywrapper {
+        right: 17%;
+        top: 4.2%;
+    }
+
+    .myhov:hover .mymain {
+        display: inline;
+        right: 20%;
+    }
+
+    .mymain {
+        font-size: 17px;
+    }
+
+    .fb {
+        position: fixed;
+        left: 60%;
+    }
+
+
+
+    .myapps-icon {
+        width: 25px;
+        height: 23px;
+        right: 9%;
+        top: 2.5%;
+    }
+
+    .myhov:hover .mymain {
+        display: inline;
+        right: 13%;
+    }
+
+    .mydropdown-content {
+        position: fixed;
+        right: 1%;
+        width: 279px;
+        display: flex;
+        padding: 1px;
+        height: 328px;
+        top: 11%;
+    }
+
+    .sc_digi {
+        width: 3%;
+        height: auto;
+        right: 17.5%;
+        top: 4.5%;
+    }
+
+    .mydropdown-content a {
+        width: 45px;
+    }
+
+    .mydropdown-content a:hover {
+        background-color: #575757;
+
+    }
+
+    .mydropdown-content a span {
+        width: 60px;
+        right: 1%;
+    }
+
+    .mydropdown-content a img {
+        width: 60%;
+        height: 30px;
+    }
+
+    .mydropbtn {
+        background: none;
+        border: none;
+        color: white;
+    }
+
+    .fb {
+        position: fixed;
+        left: 50%;
+    }
+
+    .mymain {
+        height: 74%;
+        width: 5%;
+        position: fixed;
+        left: 79%;
+        top: 5%;
+        padding: 2px;
+    }
+
+    .logo_digi {
+        margin-top: 1px;
+        right: 5%;
+        position: fixed;
+    }
+
+    .logo_digi img {
+        left: 93%;
+        position: fixed;
+        width: 5%;
+        top: 0.3%;
+    }
+
+    .myhov {
+        position: relative;
+        height: 4.3%;
+        width: 5.7%;
+        color: #3f3335;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        text-align: center;
+        line-height: 4%;
+        list-style: none;
+        z-index: 2;
+        cursor: pointer;
+        left: 77%;
+        top: -17px;
+    }
+
+    .container_temp {
+        margin-top: -7.2%;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        height: 700px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+    }
+
+    .container_temp .container-inner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+        animation: fade-in 1.5s ease, slide-in 1.2s ease;
+        -webkit-animation: fade-in 1.5s ease, slide-in 1.2s ease;
+    }
+
+    .container_temp .container-inner .main-content {
+        flex-basis: auto;
+        order: 1;
+        margin-top: 4%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_temp .container-inner .main-content .main-headings {
+        width: 100%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        animation: scaleDown 6s ease 2s;
+        -webkit-animation: scaleDown 6s ease 2s;
+    }
+
+    .container_temp .container-inner .main-content .main-headings #by-line {
+        width: 80%;
+        padding-bottom: 1px;
+        padding-left: 3px;
+        margin-left: 0;
+        font-size: 16px;
+        border-bottom: 1px solid #757575;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 {
+        position: relative;
+        top: 5%;
+        left: -32%;
+        text-align: center;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading1,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading2,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading3 {
+        margin: 0;
+        margin-top: 5px;
+        font-size: 24px;
+        font-weight: normal;
+        letter-spacing: -1px;
+        padding-bottom: 2px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading3 {
+        font-size: 32px;
+        font-weight: 800;
+        margin-top: -10px;
+        letter-spacing: 1px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .short-bio {
+        width: 65%;
+        margin-top: -10px;
+        margin-left: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .container_temp .container-inner .main-content .main-headings a {
+        margin-left: 0;
+        align-self: center;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+
+    .container_temp .container-inner .main-content .more-info {
+        margin-top: -10px;
+        width: 90%;
+        height: 40%;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        align-self: center;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        animation: reveal-info 4s ease 3s;
+        -webkit-animation: reveal-info 4s ease 3s;
+    }
+
+    .container_temp .container-inner .image-wrapper {
+        flex-basis: auto;
+        order: 2;
+        position: absolute;
+        top: 15%;
+        right: -45%;
+    }
+
+    .container_temp .container-inner .image-wrapper .image-container {
+        width: 51%;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation: scaleDown 6s ease 2s;
+        -webkit-animation: scaleDown 6s ease 2s;
+        margin-top: 5px;
+    }
+
+    .container_temp .container-inner .image-wrapper .image-container img {
+        width: 47%;
+        height: auto;
+        position: relative;
+        top: -1px;
+        border-radius: 10px;
+        right: -10%;
+    }
+
+    .link {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 951px) and (max-width: 1030px) {
+    .myteleicon {
+        font-family: arial;
+        position: fixed;
+        right: 16.8%;
+        height: auto;
+        width: 11%;
+        top: 1.5%;
+        font-size: 21px;
+        color: black;
+    }
+
+    body {
+        height: 1200px;
+    }
+
+    .navbar_digi {
+        height: 25px;
+        position: fixed;
+    }
+
+    .mymain {
+        font-size: 25px;
+        margin-left: 9px;
+        margin-top: 44px;
+    }
+
+    .search-bar_digi {
+        width: 65%;
+        justify-content: space-between;
+    }
+
+    .search-bar_digi input {
+        width: 51%;
+        position: fixed;
+        left: 11%;
+        top: 0.9%;
+        height: 1.5%;
+    }
+
+    .bess {
+        width: 2.5%;
+        top: 1%;
+        height: auto;
+        left: 1.8%;
+        color: black;
+    }
+
+    .bass {
+        font-size: 21px;
+        height: auto;
+        left: 3.5%;
+        top: 1.5%;
+        color: black;
+        font-family: arial;
+    }
+
+    .basss {
+        font-size: 21px;
+        height: auto;
+        right: 33.3%;
+        top: 1.5%;
+        font-family: arial;
+        color: black;
+    }
+
+    .dropdown-mywrapper {
+        right: 10%;
+        top: 5%;
+    }
+
+    .sc_digi {
+        font-size: 21px;
+        height: auto;
+        right: 14%;
+        top: 3.2%;
+        color: black;
+        font-family: arial;
+        font-weight: 100;
+    }
+
+    .myapps-icon {
+        width: 25px;
+        height: 23px;
+        right: 8%;
+        top: 1.5%;
+    }
+
+    .myhov:hover .mymain {
+        display: inline;
+        right: 12%;
+    }
+
+
+
+    .mydropdown-content {
+        position: fixed;
+        right: 2%;
+        width: 279px;
+        display: flex;
+        padding: 1px;
+        height: 375px;
+        top: 9%;
+    }
+
+
+    .mydropdown-content a {
+        width: 45px;
+    }
+
+    .mydropdown-content a:hover {
+        background-color: #575757;
+
+    }
+
+    .mydropdown-content a span {
+        width: 60px;
+        right: 1%;
+    }
+
+    .mydropdown-content a img {
+        width: 60%;
+        height: 30px;
+    }
+
+    .mydropbtn {
+        background: none;
+        border: none;
+        color: white;
+    }
+
+
+
+    .fb {
+        position: fixed;
+        left: 50%;
+    }
+
+    .mymain {
+        height: auto;
+        font-size: 25px;
+        width: 10%;
+        position: fixed;
+        left: 82%;
+        top: -1%;
+        padding: 0px;
+    }
+
+
+
+    .logo_digi {
+        margin-top: 1px;
+        right: 2%;
+        position: fixed;
+    }
+
+    .logo_digi img {
+        right: 2%;
+        position: fixed;
+        width: 4.5%;
+        top: 0.4%;
+    }
+
+    .container_temp {
+        margin-top: -7.2%;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        height: 700px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+    }
+
+    .container_temp .container-inner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+        animation: fade-in 1.5s ease, slide-in 1.2s ease;
+        -webkit-animation: fade-in 1.5s ease, slide-in 1.2s ease;
+    }
+
+    .container_temp .container-inner .main-content {
+        flex-basis: auto;
+        order: 1;
+        margin-top: 4%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_temp .container-inner .main-content .main-headings {
+        width: 100%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        animation: scaleDown 6s ease 2s;
+        -webkit-animation: scaleDown 6s ease 2s;
+    }
+
+    .container_temp .container-inner .main-content .main-headings #by-line {
+        width: 80%;
+        padding-bottom: 1px;
+        padding-left: 3px;
+        margin-left: 10px;
+        font-size: 16px;
+        border-bottom: 1px solid #757575;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 {
+        margin-top: 40px;
+        margin-left: 200px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading1,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading2,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading3 {
+        margin: 0;
+        margin-top: 5px;
+        font-size: 24px;
+        font-weight: normal;
+        letter-spacing: -1px;
+        padding-bottom: 2px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading3 {
+        font-size: 45px;
+        font-weight: 1000;
+        margin-top: -10px;
+        letter-spacing: 1px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .short-bio {
+        width: 60%;
+        margin-top: -10px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+    .container_temp .container-inner .main-content .more-info {
+        margin-top: -10px;
+        width: 50%;
+        height: 500px;
+        font-size: 14px;
+        margin-left: 50px;
+        margin-right: auto;
+        align-self: center;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        animation: reveal-info 4s ease 3s;
+        -webkit-animation: reveal-info 4s ease 3s;
+    }
+
+    .container_temp .container-inner .image-wrapper {
+        flex-basis: auto;
+        order: 2;
+    }
+
+    .container_temp .container-inner .image-wrapper .image-container {
+        width: 50%;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation: scaleDown 6s ease 2s;
+        -webkit-animation: scaleDown 6s ease 2s;
+        position: fixed;
+        top: 30%;
+        left: 54.5%;
+    }
+
+    .container_temp .container-inner .image-wrapper .image-container img {
+        width: 80%;
+        height: 45%;
+        position: relative;
+        top: 16%;
+        border-radius: 10px;
+    }
+
+    .link {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1031px) and (max-width: 1350px) {
+    .myteleicon {
+        width: 1.7%;
+        position: fixed;
+        right: 13.1%;
+        height: auto;
+        top: 2.5%;
+        font-size: 24px;
+        color: black;
+    }
+
+    .navbar_digi {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #f5e2ab;
+        color: white;
+        width: 100vw;
+    }
+
+
+    .bess {
+        color: #1b1b1b;
+        position: fixed;
+        left: 1%;
+        top: 2.5%;
+        height: auto;
+        width: 1.5%;
+    }
+
+    .bass {
+        position: fixed;
+        left: 4%;
+        top: 2.5%;
+        width: 1.9%;
+        height: auto;
+        color: #1b1b1b;
+    }
+
+    .basss {
+        width: 4%;
+        height: 3.5%;
+        position: fixed;
+        right: 16.3%;
+        top: 2.5%;
+    }
+
+    #digicontent,
+    #adscontent,
+    #advertisecontent,
+    #brandcontent,
+    #corpcontent,
+    #leadcontent,
+    #printcontent,
+    #seocontent,
+    #creativecontent,
+    #socialmediacontent,
+    #webdevelopcontent {
+        display: block;
+        overflow: hidden;
+    }
+
+
+
+    .search-bar_digi input {
+        width: 72%;
+        position: fixed;
+        top: 1.5%;
+    }
+
+    .mydropdown-content {
+        display: none;
+        position: absolute;
+        background: rgba(180, 181, 182, 0.9);
+        box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.3), 0 -2px 6px 2px rgba(0, 0, 0, 0.15);
+        z-index: 1;
+        box-sizing: border-box;
+        padding: -122%;
+        border-radius: 28px;
+        width: 462px;
+        right: 5em;
+        top: 47px;
+        height: 477px;
+    }
+
+    .myhov {
+        position: relative;
+        height: 4.3%;
+        width: 5.7%;
+        color: black;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        line-height: 4%;
+        list-style: none;
+        z-index: 2;
+        cursor: pointer;
+        left: 61%;
+    }
+
+    .basss {
+        position: fixed;
+        width: 2.3%;
+        height: auto;
+        color: black;
+        right: 16%;
+    }
+
+    .sc_digi {
+        position: fixed;
+        width: 3.2%;
+        height: 4.5%;
+        top: 2.5%;
+        right: 9.5%;
+    }
+
+    .myapps-icon {
+        position: fixed;
+        width: 2%;
+        height: 4.5%;
+        top: 2.5%;
+        right: 7.5%;
+    }
+
+    .logo_digi img {
+        position: fixed;
+        top: 0.5%;
+        height: 8%;
+        width: 4%;
+        right: 2.5%;
+    }
+
+    .mymain {
+        font-size: 25px;
+        margin-left: 9px;
+        margin-top: 44px;
+    }
+
+    .container_temp {
+        margin-top: 6%;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        height: 700px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+    }
+
+    .container_temp .container-inner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        position: relative;
+        animation: fade-in 1.5s ease, slide-in 1.2s ease;
+        -webkit-animation: fade-in 1.5s ease, slide-in 1.2s ease;
+        bottom: 18%;
+    }
+
+    .container_temp .container-inner .main-content {
+        flex-basis: 50%;
+        order: 1;
+        margin-top: -9%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_temp .container-inner .main-content .main-headings {
+        width: 100%;
+        align-self: center;
+        margin-top: 30px;
+        font-size: 8px;
+        display: flex;
+        flex-direction: column;
+        animation: scaleDown 6s ease 2s;
+        -webkit-animation: scaleDown 6s ease 2s;
+    }
+
+    .container_temp .container-inner .main-content .main-headings #by-line {
+        width: 60%;
+        padding-bottom: 1px;
+        padding-left: 3px;
+        margin-left: 15px;
+        font-size: 20px;
+        border-bottom: 1px solid #757575;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 {
+        margin-top: 20px;
+        margin-left: 70px;
+        font-size: 9px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading1,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading2,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading3 {
+        margin: 0;
+        margin-top: -20px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading1,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading2 {
+        font-size: 400%;
+        font-weight: normal;
+        letter-spacing: -1px;
+        padding-bottom: 10px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading1 {
+        margin-left: 40px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading2 {
+        margin-left: 130px;
+        padding-bottom: 12px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading3 {
+        margin-top: -33px;
+        font-size: 700%;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .short-bio {
+        width: 60%;
+        margin-top: -30px;
+        margin-left: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings a {
+        margin-left: 72px;
+        align-self: flex-start;
+        font-weight: bold;
+        font-size: 120%;
+        font-family: Arial, Helvetica, sans-serif;
+
+        color: black;
+
+    }
+
+
+    .container_temp .container-inner .main-content .more-info {
+        margin-top: 5px;
+        width: 50%;
+        height: 198px;
+        font-size: 14px;
+        margin-left: 100px;
+        margin-right: auto;
+        align-self: center;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        animation: reveal-info 4s ease 3s;
+        -webkit-animation: reveal-info 4s ease 3s;
+    }
+
+    .container_temp .container-inner .image-wrapper {
+        flex-basis: 50%;
+        order: 2;
+    }
+
+    .container_temp .container-inner .image-wrapper .image-container {
+        width: 80%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        animation: scaleDown 6s ease 2s;
+        -webkit-animation: scaleDown 6s ease 2s;
+    }
+
+    .container_temp .container-inner .image-wrapper .image-container img {
+        width: 88%;
+        height: 64%;
+        position: relative;
+        top: -5%;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width: 1351px) and (max-width: 1441px) {
+    .myteleicon {
+        font-family: arial;
+        position: fixed;
+        right: 12%;
+        height: auto;
+        width: 10%;
+        top: 2.5%;
+        font-size: 21px;
+        color: black;
+    }
+
+    .navbar_digi {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #f5e2ab;
+        color: white;
+        width: 100vw;
+    }
+
+
+    .bess {
+        color: #1b1b1b;
+        position: fixed;
+        left: 1%;
+        top: 2.5%;
+        height: auto;
+        width: 1.5%;
+    }
+
+    .bass {
+        position: fixed;
+        left: 2.5%;
+        top: 2.5%;
+        font-family: arial;
+        font-size: 20px;
+        height: auto;
+        color: #1b1b1b;
+    }
+
+    .basss {
+        width: 4%;
+        height: 3.5%;
+        position: fixed;
+        right: 16.3%;
+        top: 2.5%;
+    }
+
+    #digicontent,
+    #adscontent,
+    #advertisecontent,
+    #brandcontent,
+    #corpcontent,
+    #leadcontent,
+    #printcontent,
+    #seocontent,
+    #creativecontent,
+    #socialmediacontent,
+    #webdevelopcontent {
+        display: block;
+        overflow: hidden;
+    }
+
+
+
+    .search-bar_digi input {
+        width: 61%;
+        position: fixed;
+        left: 8%;
+        top: 1.5%;
+    }
+
+    .mydropdown-content {
+        display: none;
+        position: absolute;
+        background: rgba(180, 181, 182, 0.9);
+        box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.3), 0 -2px 6px 2px rgba(0, 0, 0, 0.15);
+        z-index: 1;
+        box-sizing: border-box;
+        padding: -122%;
+        border-radius: 28px;
+        width: 462px;
+        right: 5em;
+        top: 47px;
+        height: 477px;
+    }
+
+    .myhov {
+        position: relative;
+        height: 4.3%;
+        width: 5.7%;
+        color: black;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        line-height: 4%;
+        list-style: none;
+        z-index: 2;
+        cursor: pointer;
+        left: 61%;
+    }
+
+    .basss {
+        position: fixed;
+        font-size: 21px;
+        height: auto;
+        color: black;
+        right: 24%;
+        font-family: arial;
+    }
+
+    .sc_digi {
+        position: fixed;
+        font-size: 21px;
+        height: auto;
+        top: 4%;
+        right: 10%;
+        font-family: arial;
+        font-weight: 100;
+    }
+
+    .myapps-icon {
+        position: fixed;
+        width: 2%;
+        height: auto;
+        top: 2.5%;
+        right: 6.5%;
+    }
+
+    .logo_digi img {
+        position: fixed;
+        top: 0.5%;
+        height: 8%;
+        width: 4%;
+        margin-left: 21px;
+    }
+
+    .mymain {
+        font-size: 25px;
+        margin-left: 9px;
+        margin-top: 44px;
+    }
+
+    .container_temp {
+        margin-top: 6%;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        height: 700px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+    }
+
+    .container_temp .container-inner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        position: relative;
+        animation: fade-in 1.5s ease, slide-in 1.2s ease;
+        -webkit-animation: fade-in 1.5s ease, slide-in 1.2s ease;
+        bottom: 18%;
+    }
+
+    .container_temp .container-inner .main-content {
+        flex-basis: 50%;
+        order: 1;
+        margin-top: -9%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_temp .container-inner .main-content .main-headings {
+        width: 100%;
+        align-self: center;
+        margin-top: 97px;
+        font-size: 8px;
+        display: flex;
+        flex-direction: column;
+        animation: scaleDown 6s ease 2s;
+        -webkit-animation: scaleDown 6s ease 2s;
+    }
+
+    .container_temp .container-inner .main-content .main-headings #by-line {
+        width: 60%;
+        padding-bottom: 1px;
+        padding-left: 3px;
+        margin-left: 15px;
+        font-size: 20px;
+        border-bottom: 1px solid #757575;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 {
+        margin-top: 20px;
+        margin-left: 70px;
+        font-size: 9px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading1,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading2,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading3 {
+        margin: 0;
+        margin-top: -20px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading1,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading2 {
+        font-size: 400%;
+        font-weight: normal;
+        letter-spacing: -1px;
+        padding-bottom: 10px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading1 {
+        margin-left: 40px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading2 {
+        margin-left: 130px;
+        padding-bottom: 12px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading3 {
+        margin-top: -33px;
+        font-size: 700%;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .short-bio {
+        width: 60%;
+        margin-top: -17px;
+        margin-left: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings a {
+        margin-left: 72px;
+        align-self: flex-start;
+        font-weight: bold;
+        font-size: 120%;
+        font-family: Arial, Helvetica, sans-serif;
+
+        color: black;
+
+    }
+
+
+    .container_temp .container-inner .main-content .more-info {
+        margin-top: 5px;
+        width: 50%;
+        height: 354px;
+        font-size: 14px;
+        margin-left: 100px;
+        margin-right: auto;
+        align-self: center;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        animation: reveal-info 4s ease 3s;
+        -webkit-animation: reveal-info 4s ease 3s;
+    }
+
+    .container_temp .container-inner .image-wrapper {
+        flex-basis: 50%;
+        order: 2;
+    }
+
+    .container_temp .container-inner .image-wrapper .image-container {
+        width: 80%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        animation: scaleDown 6s ease 2s;
+        -webkit-animation: scaleDown 6s ease 2s;
+    }
+
+    .container_temp .container-inner .image-wrapper .image-container img {
+        width: 88%;
+        height: 64%;
+        position: relative;
+        top: -5%;
+        border-radius: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 1442px) and (max-width: 1550px) {
+    .myteleicon {
+        width: 12%;
+        position: fixed;
+        right: 8.1%;
+        height: auto;
+        font-family: arial;
+        top: 2.7%;
+        font-size: 17px;
+        color: black;
+    }
+
+    #digicontent,
+    #adscontent,
+    #advertisecontent,
+    #brandcontent,
+    #corpcontent,
+    #leadcontent,
+    #printcontent,
+    #seocontent,
+    #creativecontent,
+    #socialmediacontent,
+    #webdevelopcontent {
+        height: 10%;
+        width: 100%;
+    }
+
+
+    .bess {
+        color: #1b1b1b;
+        position: fixed;
+        left: 1%;
+        top: 2.5%;
+        height: auto;
+        width: 1.5%;
+    }
+
+    .bass {
+        position: fixed;
+        left: 2%;
+        top: 3%;
+        font-family: arial;
+        font-size: 18px;
+        height: auto;
+        color: #1b1b1b;
+    }
+
+    .basss {
+        width: 4%;
+        height: 3.5%;
+        position: fixed;
+        right: 16.3%;
+        top: 2.5%;
+    }
+
+    #digicontent,
+    #adscontent,
+    #advertisecontent,
+    #brandcontent,
+    #corpcontent,
+    #leadcontent,
+    #printcontent,
+    #seocontent,
+    #creativecontent,
+    #socialmediacontent,
+    #webdevelopcontent {
+        display: block;
+        overflow: hidden;
+    }
+
+
+
+    .search-bar_digi input {
+        width: 66%;
+        position: fixed;
+        top: 1.5%;
+        left: 4%;
+    }
+
+    .mydropdown-content {
+        display: none;
+        position: fixed;
+        background: rgba(180, 181, 182, 0.9);
+        box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.3), 0 -2px 6px 2px rgba(0, 0, 0, 0.15);
+        z-index: 1;
+        box-sizing: border-box;
+        padding: -122%;
+        border-radius: 28px;
+        width: 400px;
+        right: 1em;
+        top: 74px;
+        height: 477px;
+    }
+
+    .myhov {
+        position: relative;
+        height: 4.3%;
+        width: 5.7%;
+        color: black;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        line-height: 4%;
+        list-style: none;
+        z-index: 2;
+        cursor: pointer;
+        left: 61%;
+    }
+
+    .basss {
+        position: fixed;
+        font-family: arial;
+        font-size: 18px;
+        height: auto;
+        color: black;
+        right: 21%;
+    }
+
+    .sc_digi {
+        position: fixed;
+        font-size: 18px;
+        font-family: arial;
+        font-weight: 100;
+        height: auto;
+        top: 3.9%;
+        right: 10%;
+    }
+
+    .mydropdown-content a span {
+        margin-left: 10px;
+        color: #fff;
+        display: inline-block;
+        font-size: 9.5px;
+        line-height: 11px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        position: relative;
+        text-align: center;
+        top: 19%;
+    }
+
+    .myapps-icon {
+        position: fixed;
+        width: 2%;
+        height: auto;
+        top: 2.5%;
+        right: 6.5%;
+    }
+
+    .logo_digi img {
+        position: fixed;
+        top: 0.5%;
+        height: auto;
+        width: 3.5%;
+        left: 94.5%;
+    }
+
+    .main-content {
+        flex-basis: 50%;
+        order: 1;
+        margin-top: 44%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar_digi {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #f5e2ab;
+        width: 100%;
+    }
+
+    .mymain {
+        font-size: 25px;
+        margin-left: 9px;
+        margin-top: 44px;
+    }
+
+    .container_temp {
+        margin-top: 6%;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        height: 700px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+    }
+
+    .container_temp .container-inner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        position: relative;
+        animation: fade-in 1.5s ease, slide-in 1.2s ease;
+        -webkit-animation: fade-in 1.5s ease, slide-in 1.2s ease;
+        bottom: 18%;
+    }
+
+    .container_temp .container-inner .main-content {
+        flex-basis: 50%;
+        order: 1;
+        margin-top: -9%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_temp .container-inner .main-content .main-headings {
+        width: 100%;
+        align-self: center;
+        margin-top: 89px;
+        font-size: 8px;
+        display: flex;
+        flex-direction: column;
+        animation: scaleDown 6s ease 2s;
+        -webkit-animation: scaleDown 6s ease 2s;
+    }
+
+    .container_temp .container-inner .main-content .main-headings #by-line {
+        width: 60%;
+        padding-bottom: 1px;
+        padding-left: 3px;
+        margin-left: 15px;
+        font-size: 20px;
+        border-bottom: 1px solid #757575;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 {
+        margin-top: 20px;
+        margin-left: 70px;
+        font-size: 9px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading1,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading2,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading3 {
+        margin: 0;
+        margin-top: -20px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading1,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading2 {
+        font-size: 400%;
+        font-weight: normal;
+        letter-spacing: -1px;
+        padding-bottom: 10px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading1 {
+        margin-left: 40px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading2 {
+        margin-left: 130px;
+        padding-bottom: 12px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading3 {
+        margin-top: -33px;
+        font-size: 600%;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .short-bio {
+        width: 60%;
+        margin-top: -17px;
+        margin-left: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings a {
+        margin-left: 72px;
+        align-self: flex-start;
+        font-weight: bold;
+        font-size: 120%;
+        font-family: Arial, Helvetica, sans-serif;
+
+        color: black;
+
+    }
+
+
+    .container_temp .container-inner .main-content .more-info {
+        margin-top: 0px;
+        width: 50%;
+        height: 325px;
+        font-size: 14px;
+        margin-left: 100px;
+        margin-right: auto;
+        align-self: center;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        animation: reveal-info 4s ease 3s;
+        -webkit-animation: reveal-info 4s ease 3s;
+    }
+
+    .container_temp .container-inner .image-wrapper {
+        flex-basis: 50%;
+        order: 2;
+    }
+
+    .container_temp .container-inner .image-wrapper .image-container {
+        width: 80%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        animation: scaleDown 6s ease 2s;
+        -webkit-animation: scaleDown 6s ease 2s;
+    }
+
+    .container_temp .container-inner .image-wrapper .image-container img {
+        width: 88%;
+        height: 64%;
+        position: relative;
+        top: -5%;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width: 1551px) and (max-width: 2560px) {
+
+    .myteleicon {
+        width: 1.4%;
+        position: fixed;
+        right: 14.1%;
+        height: auto;
+        top: 2.2%;
+        font-size: 22px;
+        color: #3f3335;
+    }
+
+    .navbar_digi {
+        height: 6%;
+        position: fixed;
+    }
+
+    .search-bar_digi input {
+        width: 73%;
+        height: 2.7%;
+        margin-top: 17px;
+        margin-left: -18px;
+
+    }
+
+    .bess {
+        position: fixed;
+        left: 0.5%;
+        top: 2.4%;
+    }
+
+    .bass {
+        position: fixed;
+        left: 3.5%;
+        top: 1.8%;
+    }
+
+    .basss {
+        position: fixed;
+        top: 2%;
+        right: 17%;
+    }
+
+    .sc_digi {
+        position: fixed;
+        right: 10%;
+    }
+
+    .mymain {
+        top: 4%;
+        position: fixed;
+        width: 5%;
+        height: 5%;
+        left: 87%;
+    }
+
+    .icons_digi a {
+        width: 45%;
+        height: 5%;
+        position: fixed;
+        left: 0%;
+    }
+
+    .logo_digi img {
+        position: fixed;
+        height: 8%;
+        width: 4%;
+        top: 0%;
+        left: 94%;
+    }
+
+    .myapps-icon {
+        position: fixed;
+        width: 2%;
+        height: 3.5%;
+        top: 2.0%;
+        right: 7%;
+    }
+
+    .container_temp {
+        margin-top: 8%;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        height: 800px;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+    }
+
+    .container_temp .container-inner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        position: relative;
+        animation: fade-in 1.5s ease, slide-in 1.2s ease;
+        -webkit-animation: fade-in 1.5s ease, slide-in 1.2s ease;
+    }
+
+    .container_temp .container-inner .main-content {
+        flex-basis: 50%;
+        order: 1;
+        margin-top: 0%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_temp .container-inner .main-content .main-headings {
+        width: 100%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        animation: scaleDown 6s ease 2s;
+        -webkit-animation: scaleDown 6s ease 2s;
+    }
+
+    .container_temp .container-inner .main-content .main-headings #by-line {
+        width: 60%;
+        padding-bottom: 1px;
+        padding-left: 3px;
+        margin-left: 15px;
+        font-size: 27px;
+        border-bottom: 1px solid #757575;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 {
+        margin-top: -12px;
+        margin-left: 90px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading1,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading2,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading3 {
+        margin: 0;
+        margin-top: -20px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading1,
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading2 {
+        font-size: 550%;
+        font-weight: normal;
+        letter-spacing: -2px;
+        padding-bottom: 13px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading1 {
+        margin-left: 50px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading2 {
+        margin-left: 150px;
+        padding-bottom: 15px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .heading0 #heading3 {
+        margin-top: -52px;
+        font-size: 1100%;
+        font-weight: 800;
+        letter-spacing: 2px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings .short-bio {
+        width: 60%;
+        margin-top: -30px;
+        margin-left: 90px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+    .container_temp .container-inner .main-content .main-headings a {
+        margin-left: 92px;
+        align-self: flex-start;
+        font-weight: bold;
+        font-size: 226%;
+        font-family: Arial, Helvetica, sans-serif;
+
+        color: black;
+
+    }
+
+
+
+    .container_temp .container-inner .main-content .more-info {
+        margin-top: 10px;
+        width: 50%;
+        height: 500px;
+        font-size: 24px;
+        margin-left: 100px;
+        margin-right: auto;
+        align-self: center;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        animation: reveal-info 4s ease 3s;
+        -webkit-animation: reveal-info 4s ease 3s;
+    }
+
+    .container_temp .container-inner .image-wrapper {
+        flex-basis: 50%;
+        order: 2;
+    }
+
+    .container_temp .container-inner .image-wrapper .image-container {
+        width: 80%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        animation: scaleDown 6s ease 2s;
+        -webkit-animation: scaleDown 6s ease 2s;
+    }
+
+    .container_temp .container-inner .image-wrapper .image-container img {
+        width: 100%;
+        height: 75%;
+        position: relative;
+        top: -10%;
+        border-radius: 10px;
+    }
+
+    .mygrid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0px;
+        box-sizing: border-box;
+        background: var(--gm3-sys-color-surface-container-low, #1b1b1b);
+        color: var(--gm3-sys-color-on-surface-variant, #c4c7c5);
+        border-radius: 24px;
+        margin-bottom: 4px;
+        padding: 10px 8px 5px 5px;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        right: 0px;
+    }
+
+    .mydropdown-content {
+        display: none;
+        position: absolute;
+        background: rgba(180, 181, 182, 0.9);
+        box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.3), 0 -2px 6px 2px rgba(0, 0, 0, 0.15);
+        z-index: 1;
+        box-sizing: border-box;
+        padding: -122%;
+        border-radius: 28px;
+        width: 458px;
+        right: 46px;
+        top: 66px;
+        height: 477px;
+    }
+}
+
+/*index page responsive*/
+@media only screen and (min-width : 200px) and (max-width: 427px) {
+    .index_images h3 {
+        color: white;
+        top: 80%;
+        position: fixed;
+        left: 10%;
+        width: 100%;
+    }
+
+    .video-background {
+        width: 100vw;
+        object-fit: none;
+        height: 100vh;
+        position: relative;
+    }
+
+}
+
+@media only screen and (min-width : 431px) and (max-width : 769px) {
+    .index_images h3 {
+        left: 12%;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width : 770px) and (max-width : 1026px) {
+    .index_images h3 {
+        left: 23%;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width : 1027px) and (max-width : 1441px) {
+    .index_images h3 {
+        left: 29%;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width : 1442px) and (max-width : 2561px) {
+    .index_images h3 {
+        left: 38%;
+        width: 100%;
+    }
+}
